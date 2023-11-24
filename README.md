@@ -68,7 +68,7 @@ ctrl + x then press y to save and press enter.
 
 
 **Run the package**
-```roslaunch cv_camer cv-test.launch```
+```roslaunch cv_camera cv-test.launch```
 
 
 **Viewing in RVIZ**
