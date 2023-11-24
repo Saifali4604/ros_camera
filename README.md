@@ -76,12 +76,17 @@ ctrl + x then press y to save and press enter.
 change the frmae to ```base_link```
 
 # Calibration
+## Option 1
+copy the the file given in this repository to the ``` .ros/camera_info/ ```
+## Option 2
+(ROS WIKI)[https://wiki.ros.org/camera_calibration/Tutorials/MonocularCalibration]
+
+(Youtube Video)[https://www.youtube.com/watch?v=UGArg1kQwFc&t=434s]
 ```
 rosdep install camera_calibration
 roslaunch usb_cam usb_cam-test.launch
 rosrun camera_calibration cameracalibrator.py --size 8x6 --square 0.108 image:=/usb_cam/image_raw camera:=/usb_cam
 ```
-(ROS WIKI)[https://wiki.ros.org/camera_calibration/Tutorials/MonocularCalibration]
-(Youtube Video)[https://www.youtube.com/watch?v=UGArg1kQwFc&t=434s]
+
 
 
