@@ -13,17 +13,23 @@ cd /
 cd /opt/ros/noetic/share/usb_cam/launch/
 sudoedit usb_cam-test.launch
 ```
-4th line: change video ID in the
-5th line: change image width by 1280
-6th line: change image hieght by 720
+4th line: change video ID in the.
+
+5th line: change image width by 1280.
+
+6th line: change image hieght by 720.
+
 add  ```<node pkg="tf" type="static_transform_publisher" name="camera_frames_pub" args="0.05 0.0 0.1 0 0 0 /base_link /camera 35"/>``` before ```</launch>```
 
+
 ctrl + x then press y to save and press enter.
+
 
 **Note: before run the package do the calibration** follow calibration part mentioned below 
 
 **Run the package**
 ```roslaunch usb_cam usb_cam-test.launch```
+
 
 
 **Viewing in RVIZ**
