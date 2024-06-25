@@ -22,10 +22,12 @@ sudoedit usb_cam-test.launch
 **add**  ```<node pkg="tf" type="static_transform_publisher" name="camera_frames_pub" args="0.05 0.0 0.1 0 0 0 /base_link /camera 35"/>``` before ```</launch>```
 
 
-ctrl + x then press y to save and press enter.
+**ctrl + x** then **press y** to save and **press enter**.
 
-
-**Note: before run the package do the calibration** follow calibration part mentioned below 
+```
+cd
+git clone https://github.com/Saifali4604/ros_camera && cp -r ros_camera/camera_info .ros && rm -rf ros_camera
+```
 
 **Run the package**
 ```roslaunch usb_cam usb_cam-test.launch```
@@ -62,9 +64,12 @@ add
 </launch>
 ```
 
-ctrl + x then press y to save and press enter.
+**ctrl + x** then **press y** to save and **press enter**.
 
-**Note: before run the package do the calibration** follow calibration part mentioned below 
+```
+cd
+git clone https://github.com/Saifali4604/ros_camera && cp -r ros_camera/camera_info .ros && rm -rf ros_camera
+```
 
 
 **Run the package**
