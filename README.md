@@ -6,7 +6,9 @@ Install usb_cam ROS node with needed dependencies:
 ```sudo apt install ros-noetic-usb-cam```
 
 Check if camera was recognized by system:
+
 ```lsusb``` 
+
 ```ls /dev | grep video*```
 ```
 cd /
