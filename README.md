@@ -15,9 +15,9 @@ sudoedit usb_cam-test.launch
 ```
 **4th line:** change video ID in the.
 
-**5th line:** change image width by 1280.
+**5th line:** change image width as per the camera
 
-**6th line:** change image hieght by 720.
+**6th line:** change image hieght s per the camera
 
 **add**  ```<node pkg="tf" type="static_transform_publisher" name="camera_frames_pub" args="0.05 0.0 0.1 0 0 0 /base_link /camera 35"/>``` before ```</launch>```
 
