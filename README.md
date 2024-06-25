@@ -82,12 +82,6 @@ change the frmae to ```base_link```
 
 # Calibration
 ## Option 1
-copy the the file given in this repository 
-``` 
-cd .ros
-git clone https://github.com/Saifali4604/ros_camera
-```
-## Option 2
 (ROS WIKI)[https://wiki.ros.org/camera_calibration/Tutorials/MonocularCalibration]
 
 (Youtube Video)[https://www.youtube.com/watch?v=UGArg1kQwFc&t=434s]
