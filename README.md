@@ -32,12 +32,6 @@ git clone https://github.com/Saifali4604/ros_camera && cp -r ros_camera/camera_i
 **Run the package**
 ```roslaunch usb_cam usb_cam-test.launch```
 
-
-
-**Viewing in RVIZ**
-```rviz``` go to ```by topic``` and click on ```image``` 
-change the frmae to ```base_link```
-
 ## step 2: ROS opencv camera drivers
 Install usb_cam ROS node with needed dependencies:
 ```
